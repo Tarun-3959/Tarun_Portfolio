@@ -31,9 +31,9 @@ const Navigation = () => {
   ];
 
   const handleDownloadResume = () => {
-    // Create a dummy PDF download
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1example/view";
+    link.href =
+      "https://drive.google.com/file/d/1eG_veAW2ssmIDw1IPS5vpHwshjqCFTw2/view?usp=drive_link";
     link.target = "_blank";
     link.click();
   };
