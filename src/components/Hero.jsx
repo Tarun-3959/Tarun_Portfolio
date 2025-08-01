@@ -1,11 +1,10 @@
 import React from "react";
 import { Download, ArrowDown } from "lucide-react";
-import MY_PIC from "../assets/my-pic.jpeg";
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1eG_veAW2ssmIDw1IPS5vpHwshjqCFTw2/view?usp=drive_link";
+      "https://drive.google.com/file/d/1YARwP2s7VXKR-1ccqZuGAd8EZhv9S1DH/view?usp=drive_link";
     link.target = "_blank";
     link.click();
   };
@@ -30,17 +29,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image */}
-          <div className="mb-8">
-            {/* <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl">
-              <img
-                src={MY_PIC}
-                alt="Professional Profile"
-                className="w-full h-full object-cover"
-              />
-            </div> */}
-          </div>
-
           {/* Name and Title */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Tarun Kushwaha

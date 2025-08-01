@@ -5,7 +5,7 @@ const About = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1eG_veAW2ssmIDw1IPS5vpHwshjqCFTw2/view?usp=drive_link";
+      "https://drive.google.com/file/d/1YARwP2s7VXKR-1ccqZuGAd8EZhv9S1DH/view?usp=drive_link";
     link.target = "_blank";
     link.click();
   };
